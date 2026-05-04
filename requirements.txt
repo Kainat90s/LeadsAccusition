@@ -1,0 +1,33 @@
+# Lead Scraping System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Web framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# HTTP requests
+requests>=2.31.0
+
+# HTML parsing
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Data handling
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# DNS resolution for email verification
+dnspython>=2.4.0
+
+# Browser automation (for bot-protected sites)
+# After installing, run: playwright install chromium
+playwright>=1.40.0
+
+# Optional: Phone number parsing (install if needed)
+# phonenumbers>=8.13.0
+
+# Optional: Concurrent processing improvements
+# aiohttp>=3.9.0
